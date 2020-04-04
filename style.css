@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+}
+
+div {
+	display: block;
+}
+
+.banner {
+	background-color: rgba(33, 33, 33, 0.85);
+	color: white;
+	height: 62px;
+	display: flex;
+	justify-content: center;
+}
+
+.banner-in {
+	align-self: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	font-size: 14px;
+}
+
+.covid-19 {
+	color: #FA0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.learn-more:hover,
+.learn-more:link,
+.learn-more:visited,
+.learn-more:active {
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.header {
+	height: 86px;
+	display: flex;
+	padding-left: 15px;
+}
+
+div.logo {
+	margin-right: 10px;
+	width: 80%;
+}
+
+.logo {
+	height: 44px;
+	align-self: center;
+}
+
+.group-log {
+	align-self: center;
+	display: flex;
+	width: 20%;
+	font-size: 14px;
+}
+
+.create-group {
+	border-right: 1px solid #DDD;
+	padding: 0px 15px;
+	color: rgb(0, 162, 199);
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-decoration: none;
+}
+
+.login, .signup {
+	text-decoration: none;
+	padding-left: 20px;
+	color: #777;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.login:hover, .login:active
+.signup:active, .signup:hover {
+	color: rgb(0, 162, 199);
+}
+
+.main {
+	background-image: url(https://i0.wp.com/mobiletrading.blog/wp-content/uploads/2015/11/meetup-slide-1-background.jpg?ssl=1);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .section-1 {
+	font-size: 42px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main .section-2 {
+	font-size: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main .button-join {
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin: 0px 280px;
+	height: 48px;
+	background-color: #C3BF6D;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	text-decoration: none;
+	transition: all 1.2s;
+}
+
+.button-join:hover, .button-join:active, .buttion-join:visited {
+	background-color: #E2B6CF;
+}
+
+.button-join-text {
+	color: #FFF;
+	text-decoration: none;
+}
