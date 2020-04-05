@@ -101,14 +101,14 @@ div.logo {
 
 .main .section-2 {
 	font-size: 20px;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: "Sen", Gadget, sans-serif;
 	color: #FFF;
 	text-align: center;
 	margin-bottom: 40px;
 }
 
 .main .button-join {
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: "Sen", Gadget, sans-serif;
 	margin: 0px 280px;
 	height: 48px;
 	background-color: #C3BF6D;
@@ -129,3 +129,86 @@ div.logo {
 	color: #FFF;
 	text-decoration: none;
 }
+
+.list-choose {
+	height: 72px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #DDD;
+}
+
+.list-choose-content {
+	display: flex;
+	list-style-type: none;
+	margin-left: 40px;
+	align-self: center;
+}
+
+.list-1 {
+	margin-left: 20px;
+	background-color: rgba(117, 117, 117, 0.1);;
+	border: 1px solid #888;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-family: "Lato", sans-serif;
+	transition: all 0.1s;
+	text-decoration: none;
+	color: #222;
+}
+
+.list-1:hover, .list-1:active {
+	border: 1px solid #222;
+}
+
+.event-content {
+	margin: 40px 0px 0px 400px;
+	font-family: Arial, sans-serif;
+}
+
+.event-content-1 > .create-group {
+	margin-left: 800px;
+	font-size: 16px;
+	font-family: "Lato", Gadget, sans-serif;
+}
+
+.event-content-1 {
+	margin-bottom: 5px;
+}
+
+.event-content-2 {
+	font-family: "Lato", "Lucida Grande", sans-serif;
+}
+
+.out-app {
+	margin-top : 40px;
+}
+
+.appointment {
+	height: 256px;
+	width: 340px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	transition: all 200ms;
+	transform: scale(0.98);
+	box-shadow: 4px rgb(0,0,0);
+	font-family: "Lato", "Lucida Grande", sans-serif;
+	padding-left: 20px;
+}
+
+.appointment:hover {
+	transform: scale(1);
+	filter: drop-shadow(0 1px 1px #888);
+}
+
+.appointment .time {
+	text-transform: uppercase;
+	display: flex;
+	padding-top: 40px;
+	color: rgb(0, 162, 199);
+	font-weight: bolder;
+}
+
+
+/*.address {
+	margin: 0
+}*/
