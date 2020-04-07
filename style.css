@@ -166,7 +166,7 @@ div.logo {
 }
 
 .event-content-1 > .create-group {
-	margin-left: 800px;
+	margin-left: 850px;
 	font-size: 16px;
 	font-family: "Lato", Gadget, sans-serif;
 }
@@ -181,6 +181,7 @@ div.logo {
 
 .out-app {
 	margin-top : 40px;
+	width: 0px;
 }
 
 .appointment {
@@ -203,12 +204,104 @@ div.logo {
 .appointment .time {
 	text-transform: uppercase;
 	display: flex;
-	padding-top: 40px;
+	padding-top: 10px;
 	color: rgb(0, 162, 199);
 	font-weight: bolder;
 }
 
+.attend {
+	display: flex;
+	align-items: center;
+}
 
-/*.address {
-	margin: 0
-}*/
+.attend .box-attend {
+	border: 1px solid rgb(0, 152, 171);
+	color: rgb(0, 152, 171);
+	font-family: "Sen", Gadget, sans-serif;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-left: 150px;
+}
+
+.box-attend:hover {
+	background-color: rgb(0, 152, 171);
+	color: #FFF;
+}
+
+.box-group {
+	border: 1px solid #DDD;
+	border-radius: 10px;
+	height: 324px;
+	display: block;
+	width: 250px;
+	transition: all 0.5s;
+	box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.1),
+				-1px -1px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-group:hover{
+	box-shadow: 1px 1px 0px 3px rgba(0, 0, 0, 0.1),
+				-1px -1px 0px 3px rgba(0, 0, 0, 0.1);
+				/* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+
+.box-group .pic-box {
+	height: 140px;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/6/6/5/8/600_481766200.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.box-group .content-box {
+	display: flex;
+	flex-direction: column;
+	padding-left: 14px;
+	height: 169px;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 20px; 
+	word-wrap: break-word;
+	padding-bottom: 10px;
+}
+
+.out-app-1 {
+	margin-top : 40px;
+	display: flex;
+}
+
+.a-pic {
+	margin-left: 35px;
+	text-decoration: none; 
+	color: #000;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.line-item {
+	height: 208px; 
+	width: 288px; 
+}
+
+.border-line {
+	height: 192px; 
+	width: 253px; 
+}
+
+.img-line {
+	background-position: center;
+	background-size: cover;
+	height: 160px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.space {
+	height: 10000px;
+}
